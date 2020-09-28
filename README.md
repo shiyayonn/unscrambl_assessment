@@ -7,7 +7,7 @@ python server.py
 
 endpoints: \
 
-http://localhost:8080/assignment/transaction/<id> \
+http://localhost:8080/assignment/transaction/<_id> \
 http://localhost:8080/assignment/transactionSummaryByProducts/<last_n_days> \
 http://localhost:8080/assignment/transactionSummaryByManufacturingCity/<last_n_days>
   
