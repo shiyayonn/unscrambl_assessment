@@ -5,7 +5,7 @@ cd unscrambl_assessment\
 pip install requirements.txt\
 python server.py
 
-endpoints:
+endpoints: \
 http://localhost:8080/assignment/transaction/<id> \
 http://localhost:8080/assignment/transactionSummaryByProducts/<last_days> \
 http://localhost:8080/assignment/transactionSummaryByManufacturingCity/<last_days> \
